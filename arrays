@@ -1,0 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class arrays {
+   public arrays() {
+   }
+
+   public static void main(String[] var0) {
+      int[] var1 = new int[]{10, 20, 30, 40, 50};
+      int var2 = 0;
+
+      for(int var3 = 0; var3 < var1.length; ++var3) {
+         var2 += var1[var3];
+      }
+
+      System.out.println("Array Elements:");
+
+      for(int var6 : var1) {
+         System.out.print(var6 + " ");
+      }
+
+      System.out.println("\nSum = " + var2);
+      if (var2 > 100) {
+         System.out.println("Sum is greater than 100");
+      } else {
+         System.out.println("Sum is less than or equal to 100");
+      }
+
+   }
+}
